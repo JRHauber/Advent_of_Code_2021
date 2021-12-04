@@ -36,8 +36,6 @@ while(i < len(commands)):
 	if(commands[i] == 'forward'):
 		h_pos += values[i]
 		depth += (values[i] * aim)
-		if(depth < 0):
-			depth = 0
 	elif(commands[i] == 'up'):
 		aim -= values[i]
 	else:
